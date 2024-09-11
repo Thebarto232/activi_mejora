@@ -1,0 +1,132 @@
+@import url(../../styles.css);
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.a {
+  text-decoration: none;
+  padding-right: 10px;
+}
+
+.a:hover {
+  color: white;
+}
+.menu {
+  display: flex;
+  justify-content: space-between;
+  height: 70px;
+  background-color: #161615;
+  align-items: center;
+  padding: 10px;
+}
+.menu__title {
+  color: black;
+}
+.menu__item {
+  text-decoration: none;
+  flex-direction: column;
+}
+
+.menu__item:hover {
+  color: white;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+.img__logo {
+  height: 50px;
+  margin-right: 10px;
+}
+.nav {
+  font-weight: 600;
+}
+
+.menu--oscuro {
+  background-color: #333;
+  color: white;
+  padding: 10px;
+}
+
+.logo--centrado {
+  text-align: center;
+}
+
+.menu__item--oscuro {
+  color: rgb(71, 7, 7);
+  padding: 5px 10px;
+}
+
+.menu__item--oscuro:hover {
+  background-color: #555;
+  border-radius: 4px;
+}
+.menu--animado .menu__item--animado {
+  color: #9c4646;
+  transition: color 0.3s ease, background-color 0.3s ease;
+  padding: 5px 10px;
+}
+
+.menu__item--animado:hover {
+  color: #050505;
+  background-color: #007bff;
+  border-radius: 4px;
+}
+
+.menu__logo {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #181717;
+  transition: transform 0.3s ease;
+}
+
+.menu__logo-img {
+  width: 24px;
+  height: 24px;
+  margin-right: 10px;
+}
+
+.menu__title {
+  font-size: 1.5em;
+  margin: 0;
+}
+
+.menu__nav {
+  display: flex;
+  gap: 15px;
+}
+
+.menu__item {
+  text-decoration: none;
+  color: #fff;
+  padding: 10px 15px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.menu.menu--negro {
+  color: #fcf4f4;
+  background-color: #007bff;
+  border-radius: 4px;
+}
+
+.menu.menu--negro::hover {
+  color: #050505;
+  background-color: #a80e0e;
+  border-radius: 4px;
+}
+
+.menu--rojo {
+  background-color: #9c4646;
+  color: #555;
+}
+
+.menu.menu--rojo.menu__item::hover {
+  background-color: #ca4242;
+  font-size: 30px;
+}

@@ -1,0 +1,106 @@
+@import url(../../styles.css);
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.flores {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 70px;
+  flex-wrap: wrap;
+  margin: 20px;
+}
+
+.flower,
+.flor {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flower__center,
+.flor__centro {
+  width: 40px;
+  height: 40px;
+  background-color: yellow;
+  border-radius: 50%;
+  position: absolute;
+}
+
+.flower__petal,
+.flor__petalo {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  background-color: rgb(50, 46, 47);
+  border-radius: 50%;
+}
+
+.flower__petal--top,
+.flor__petalo--arriba {
+  top: -20px;
+}
+
+.flower__petal--top {
+  background-color: brown;
+}
+
+.flower__petal--bottom,
+.flor__petalo--abajo {
+  bottom: -20px;
+  background-color: blue;
+}
+
+.flower__petal--left,
+.flor__petalo--izquierda {
+  left: -20px;
+  background-color: violet;
+}
+
+.flower__petal--right,
+.flor__petalo--derecha {
+  right: -20px;
+  background-color: aquamarine;
+}
+
+.flor--grande {
+  width: 150px;
+  height: 150px;
+}
+
+.flor--grande .flor__centro {
+  width: 60px;
+  height: 60px;
+}
+
+.flor--grande .flor__petalo {
+  width: 60px;
+  height: 60px;
+}
+
+.flor--colorido .flor__petalo--arriba {
+  background-color: red;
+}
+
+.flor--colorido .flor__petalo--abajo {
+  background-color: blue;
+}
+
+.flor--colorido .flor__petalo--izquierda {
+  background-color: green;
+}
+
+.flor--colorido .flor__petalo--derecha {
+  background-color: orange;
+}
+
+.flower__center,
+.flor__centro {
+  border: 2px solid black;
+}

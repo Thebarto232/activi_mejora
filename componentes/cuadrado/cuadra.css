@@ -1,0 +1,56 @@
+@import url(../../styles.css);
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.cuadrado {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.cuadrado__item {
+  width: 100px;
+  height: 100px;
+  border: 3px solid #000;
+}
+
+.cuadrado__item--rojo {
+  background-color: #ff5722;
+}
+
+.cuadrado__item--amarillo {
+  background-color: #ffeb3b;
+}
+
+.cuadrado__item--azul {
+  background-color: #2196f3;
+}
+
+.cuadrado--base {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.cuadrado__item {
+  width: 100px;
+  height: 100px;
+  background-color: #ccc;
+}
+
+.cuadrado__item--rojo {
+  background-color: #ff5722;
+}
+
+.cuadrado__item--amarillo {
+  background-color: #ffeb3b;
+}
+
+.cuadrado__item--azul {
+  background-color: #2196f3;
+}

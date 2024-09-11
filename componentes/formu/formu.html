@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="formu.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="pagina">
+      <ul class="pagina__item">
+        <li class="paginacion__linea">
+          <a href="#" class="paginacion__link">anterior</a>
+          <a href="../cards/cards.html" class="paginacion__link">1</a>
+          <a href="../menuresposive/menuresposive.html" class="paginacion__link"
+            >2</a
+          >
+          <a href="../lista/lista.html" class="paginacion__link">3</a>
+          <a href="../menu/menu.html" class="paginacion__link">4</a>
+          <a href="../alerta/alerta.html" class="paginacion__link">5</a>
+          <a href="../formu/formu.html" class="paginacion__link">6</a>
+          <a href="../acordion/acordion.html" class="paginacion__link">7</a>
+          <a href="../cuadrado/cuadra.html" class="paginacion__link">8</a>
+          <a href="../figuras/trian.html" class="paginacion__link">9</a>
+          <a href="../flor/flor.html" class="paginacion__link">10</a>
+          <a href="#" class="paginacion__link">siguiente</a>
+        </li>
+      </ul>
+    </div>
+
+    <form class="form">
+      <div class="form__group">
+        <label class="form__label" for="nombre">Nombre:</label>
+        <input type="text" id="nombre" class="form__input" />
+        <span class="form__error">Este campo es obligatorio</span>
+      </div>
+      <div class="form__group">
+        <label class="form__label" for="email">Correo electrónico:</label>
+        <input type="email" id="email" class="form__input" />
+      </div>
+      <button class="button button--primary">Enviar</button>
+    </form>
+
+    <form class="form form--validacion">
+      <div class="form__group">
+        <label class="form__label" for="nombre">Nombre:</label>
+        <input
+          type="text"
+          id="nombre"
+          class="form__input form__input--validado"
+        />
+        <span class="form__error">Este campo es obligatorio</span>
+      </div>
+      <div class="form__group">
+        <label class="form__label" for="email">Correo electrónico:</label>
+        <input
+          type="email"
+          id="email"
+          class="form__input form__input--validado"
+        />
+      </div>
+      <button class="button button--primary">Enviar</button>
+    </form>
+
+    <form class="form form--columnas">
+      <div class="form__group form__group--columna">
+        <label class="form__label" for="nombre">Nombre:</label>
+        <input type="text" id="nombre" class="form__input" />
+      </div>
+      <div class="form__group form__group--columna">
+        <label class="form__label" for="email">Correo electrónico:</label>
+        <input type="email" id="email" class="form__input" />
+      </div>
+      <button class="button button--primary">Enviar</button>
+    </form>
+
+    <form class="form form--fondo">
+      <div class="form__group">
+        <label class="form__label" for="nombre">Nombre:</label>
+        <input type="text" id="nombre" class="form__input form__input--fondo" />
+        <span class="form__error">Este campo es obligatorio</span>
+      </div>
+      <div class="form__group">
+        <label class="form__label" for="email">Correo electrónico:</label>
+        <input type="email" id="email" class="form__input form__input--fondo" />
+      </div>
+      <button class="button button--primary">Enviar</button>
+    </form>
+  </body>
+</html>

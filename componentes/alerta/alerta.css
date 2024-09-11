@@ -1,0 +1,66 @@
+@import url(../../styles.css);
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.alerta {
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  position: relative;
+  width: 100%;
+  max-width: 400px;
+}
+
+.alerta__icono {
+  font-size: 24px;
+  margin-right: 10px;
+}
+
+.alerta__mensaje {
+  flex-grow: 1;
+  font-size: 16px;
+}
+
+.alerta__cerrar {
+  background: none;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.alerta--info {
+  background-color: #e0f7fa;
+  color: #00796b;
+  border: 1px solid #00796b;
+}
+
+.alerta--exito {
+  background-color: #e8f5e9;
+  color: #388e3c;
+  border: 1px solid #388e3c;
+}
+
+.alerta--error {
+  background-color: #ffebee;
+  color: #d32f2f;
+  border: 1px solid #d32f2f;
+}
+
+.alerta--advertencia {
+  background-color: #fff3e0;
+  color: #f57c00;
+  border: 1px solid #f57c00;
+}
+.alerta--peligro {
+  background-color: #cbcfcb;
+  color: #ee1010;
+  border: 2px solid red;
+}

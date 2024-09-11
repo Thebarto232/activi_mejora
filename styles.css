@@ -1,0 +1,57 @@
+@import url(componentes/cards/cards.css);
+@import url(componentes/menuresposive/menuresposive.css);
+@import url(componentes/lista/lista.css);
+@import url(componentes/menu/menu.css);
+@import url(componentes/alerta/alerta.css);
+@import url(componentes/acordion/acordion.css);
+@import url(componentes/formu/formu.css);
+@import url(componentes/figuras/trian.css);
+@import url(componentes/cuadrado/cuadra.css);
+@import url(componentes/flor/flor.css);
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+@media (min-width: 350px) and (max-width: 1200px) {
+  .pagina {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+  }
+}
+
+.pagina__item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+}
+.pagina__linea {
+  list-style: none;
+}
+.paginacion__link {
+  display: inline-block;
+  margin: 0 5px;
+  padding: 8px 12px;
+  text-decoration: none;
+  color: #007bff;
+  background-color: #0c0c0c;
+  border: 1px solid #25e2e9;
+  border-radius: 4px;
+  transition: background-color 0.3s, color 0.3s;
+}
+.root {
+  --color--blanco: rgb(255, 255, 255);
+  --color--vino: rgb(153, 83, 83);
+  --color--negro: rgb(1, 1, 1);
+  --color--verde: rgb(27, 212, 64);
+  --color--azul: rgb(96, 177, 240);
+  --color--naranja: rgb(245, 145, 14);
+  --color--gris: rgb(159, 146, 146);
+  --color--amarillo: rgb(233, 222, 9);
+  --color--rosado: rgb(152, 50, 141);
+}
